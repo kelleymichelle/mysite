@@ -22,8 +22,8 @@ class App extends React.Component {
       ],
       home: {
         title: "Aim High",
-        subTitle: "Projects that made a difference",
-        text: "Checkout my work below"
+        subTitle: "Hard work does pay off",
+        text: "To checkout my work below, click on an image"
       },
       about: {
         title: "My Story"

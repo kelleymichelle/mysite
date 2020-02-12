@@ -5,6 +5,8 @@ import Card from '../components/Card'
 import moonlight from '../assets/images/moonlight.png';
 import tagsale from '../assets/images/tagsale.png';
 import rubikstimetracker from '../assets/images/rubikstimetracker.png';
+import weatherapp from '../assets/images/weatherapp.png';
+
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 
@@ -36,6 +38,14 @@ export class CardDisplay extends Component {
                     subTitle: 'Keep Track of Your Speedcubing Times',
                     imgSrc: rubikstimetracker,
                     link: 'https://github.com/jamievullo/Rubiks_Time_Tracker',
+                    selected: false
+                },
+                {
+                    id: 3,
+                    title: 'Weather Hack',
+                    subTitle: 'Get Your Current Weather',
+                    imgSrc: weatherapp,
+                    link: 'https://github.com/jamievullo/WeatherApp',
                     selected: false
                 },
             ]
