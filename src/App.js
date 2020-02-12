@@ -23,7 +23,7 @@ class App extends React.Component {
       home: {
         title: "Aim High",
         subTitle: "Hard work does pay off",
-        text: "To checkout my work below, click on an image"
+        text: "To checkout my work, click on an image below"
       },
       about: {
         title: "My Story"
@@ -39,7 +39,7 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true} >
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Jamie Vullo</Navbar.Brand>
+            <Navbar.Brand id="j-brand">Jamie Vullo</Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">

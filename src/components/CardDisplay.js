@@ -19,33 +19,37 @@ export class CardDisplay extends Component {
                 {
                     id: 0,
                     title: 'Moonlight',
-                    subTitle: 'Explore our Solar System',
+                    subTitle: 'JavaScript SPA/Rails API',
                     imgSrc: moonlight,
-                    link: 'https://github.com/jamievullo/Moonlight',
+                    link: 'https://projectmoonlight.herokuapp.com/',
+                    gitLink: 'https://github.com/jamievullo/Moonlight',
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'TagSale',
-                    subTitle: 'Buy or Sell Your New or Used Items',
+                    title: 'Tag Sale',
+                    subTitle: 'Ruby on Rails, HTML, CSS',
                     imgSrc: tagsale,
                     link: 'https://github.com/jamievullo/Tag-Sale',
+                    gitLink: 'https://github.com/jamievullo/Tag-Sale',
                     selected: false
                 },
                 {
                     id: 2,
                     title: 'Rubiks Time Tracker',
-                    subTitle: 'Keep Track of Your Speedcubing Times',
+                    subTitle: 'Sinatra, HTML, CSS, OOP, MVC',
                     imgSrc: rubikstimetracker,
                     link: 'https://github.com/jamievullo/Rubiks_Time_Tracker',
+                    gitLink: 'https://github.com/jamievullo/Rubiks_Time_Tracker',
                     selected: false
                 },
                 {
                     id: 3,
                     title: 'Weather Hack',
-                    subTitle: 'Get Your Current Weather',
+                    subTitle: 'JavaScript SPA, API integration',
                     imgSrc: weatherapp,
                     link: 'https://github.com/jamievullo/WeatherApp',
+                    gitLink: 'https://github.com/jamievullo/WeatherApp',
                     selected: false
                 },
             ]
