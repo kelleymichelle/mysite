@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import SocialMediaIcons from './components/SocialMediaIcons'
 
 class App extends React.Component {
   constructor(props) {
@@ -22,14 +23,14 @@ class App extends React.Component {
       ],
       home: {
         title: "Aim High",
-        subTitle: "Hard work does pay off",
-        text: "To checkout my work, click on an image below"
+        subTitle: "Hard work pays off.",
+        text: "To checkout my work, click on an image below..."
       },
       about: {
-        title: "My Story"
+        title: "About Me"
       },
       contact: {
-        title: "Let's Talk"
+        title: "Let's Connect"
     }
   }
 }
@@ -40,25 +41,22 @@ class App extends React.Component {
         <Container className="p-0" fluid={true} >
           <Navbar className="border-bottom" bg="transparent" expand="lg">
             <Navbar.Brand id="j-brand">Jamie Vullo</Navbar.Brand>
-
-            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
-            <Navbar.Collapse id="navbar-toggle">
-              <Nav className="ml-auto">
-                <Link className="nav-link" to='/'>Home</Link>
-                <Link className="nav-link" to='/about'>About</Link>
-                <Link className="nav-link" to='/contact'>Contact</Link>
-
-                
-              </Nav>
-            </Navbar.Collapse>
-          </Navbar>
+              <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
+                <Navbar.Collapse id="navbar-toggle">
+                  <Nav className="ml-auto">
+                    <Link className="nav-link" to='/'>Home</Link>
+                    <Link className="nav-link" to='/about'>About</Link>
+                    <Link className="nav-link" to='/contact'>Contact</Link>
+                  </Nav>
+                </Navbar.Collapse>
+              {/* <SocialMediaIcons /> */}
+            </Navbar>
 
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
 
           <Footer />
-
         </Container>
       </Router>
     );

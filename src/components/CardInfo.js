@@ -9,7 +9,7 @@ export default function CardInfo(props) {
         <animated.div className="j-card-info" style={style}>
             <p className="j-card-title">{props.title}</p>
             <p className="j-card-sub-title">{props.subTitle}</p>
-            <a href={props.link} target="_blank" rel="noopener noreferrer">View Live</a>
+            <a href={props.link} target="_blank" rel="noopener noreferrer">View Project Live</a>
             <br/>
             <a href={props.gitLink} target="_blank" rel="noopener noreferrer">View Code</a>
         </animated.div>

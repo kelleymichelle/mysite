@@ -28,7 +28,7 @@ export class CardDisplay extends Component {
                 {
                     id: 1,
                     title: 'Tag Sale',
-                    subTitle: 'Ruby on Rails, HTML, CSS',
+                    subTitle: 'Ruby on Rails, Active Record, SQL',
                     imgSrc: tagsale,
                     link: 'https://github.com/jamievullo/Tag-Sale',
                     gitLink: 'https://github.com/jamievullo/Tag-Sale',
@@ -46,7 +46,7 @@ export class CardDisplay extends Component {
                 {
                     id: 3,
                     title: 'Weather Hack',
-                    subTitle: 'JavaScript SPA, API integration',
+                    subTitle: 'JavaScript SPA, API Integration',
                     imgSrc: weatherapp,
                     link: 'https://github.com/jamievullo/WeatherApp',
                     gitLink: 'https://github.com/jamievullo/WeatherApp',
