@@ -44,57 +44,66 @@ code {
 }
 
 #logo {
-  animation: fill 0.8s ease forwards 3.9s;
+  animation: fill 0.8s ease forwards 6s;
 }
+
 #logo path:nth-child(1) {
   stroke-dasharray: 136px;
   stroke-dashoffset: 136px;
-  animation: line-anim 2s ease forwards 0.7;
+  animation: line-anim 2s ease forwards 1.5s;
 }
+
 #logo path:nth-child(2) {
   stroke-dasharray: 201px;
   stroke-dashoffset: 201px;
-  animation: line-anim 2s ease forwards 1.0s;
+  animation: line-anim 2s ease forwards 1.8s;
 }
+
 #logo path:nth-child(3) {
   stroke-dasharray: 274px;
   stroke-dashoffset: 274px;
-  animation: line-anim 2s ease forwards 1.3s;
+  animation: line-anim 2s ease forwards 2.1s;
 }
+
 #logo path:nth-child(4) {
   stroke-dasharray: 101px;
   stroke-dashoffset: 101px;
-  animation: line-anim 2s ease forwards 1.7s;
+  animation: line-anim 2s ease forwards 2.6s;
 }
+
 #logo path:nth-child(5) {
   stroke-dasharray: 195px;
   stroke-dashoffset: 195px;
-  animation: line-anim 2s ease forwards 2.0s;
+  animation: line-anim 2s ease forwards 2.9s;
 }
+
 #logo path:nth-child(6) {
   stroke-dasharray: 143px;
   stroke-dashoffset: 143px;
-  animation: line-anim 2s ease forwards 2.3s;
+  animation: line-anim 2s ease forwards 3.2s;
 }
 #logo path:nth-child(7) {
   stroke-dasharray: 175px;
   stroke-dashoffset: 175px;
-  animation: line-anim 2s ease forwards 2.6s;
+  animation: line-anim 2s ease forwards 3.5s;
 }
+
 #logo path:nth-child(8) {
   stroke-dasharray: 108px;
   stroke-dashoffset: 108px;
-  animation: line-anim 2s ease forwards 2.9s;
+  animation: line-anim 2s ease forwards 3.9s;
 }
+
 #logo path:nth-child(9) {
   stroke-dasharray: 108px;
   stroke-dashoffset: 108px;
-  animation: line-anim 2s ease forwards 3.2s;
+  animation: line-anim 2s ease forwards 4.2s;
 }
+
 #logo path:nth-child(10) {
   stroke-dasharray: 177px;
   stroke-dashoffset: 177px;
-  animation: line-anim 2s ease forwards 3.5s;
+  animation: line-anim 2s ease forwards 4.5s;
 }
 
 @keyframes line-anim {
@@ -108,16 +117,16 @@ code {
     fill: transparent;
   }
   to {
-    fill: #bb9600;
+    fill: #463700;
   }
 }
 
 .success-msg {
-  color: #57A773;
+  color: rgb(45, 204, 101);
   padding: 10px 15px;
 }
 
 .err-msg {
-  color: #EE6352;
+  color: rgb(235, 58, 35);
   padding: 10px 15px;
 }

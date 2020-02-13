@@ -11,7 +11,7 @@ export default function AboutPage(props) {
             <Hero title={props.title} />
 
             <Content>
-                Add content about me here.
+                Ready for content.......................
             </Content>
         </div>
     )
