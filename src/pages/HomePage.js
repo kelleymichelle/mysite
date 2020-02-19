@@ -6,7 +6,7 @@ import CardDisplay from '../components/CardDisplay'
 
 export default function HomePage(props) {
     return (
-        <div>
+        <div className='hero-home' >
             <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
 
             <CardDisplay />

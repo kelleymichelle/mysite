@@ -22,15 +22,17 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact' }
       ],
       home: {
-        title: "Aim High",
-        subTitle: "Hard work pays off.",
+        title: "Stand Out",
+        subTitle: "",
         text: "To checkout my work, click on an image below..."
       },
       about: {
         title: "About Me"
       },
       contact: {
-        title: "Let's Connect"
+        //wanted let's connect but blows out on mobile
+        //look into alternate rendering for mobile/responsive
+        title: "Let's Talk"
     }
   }
 }
@@ -40,7 +42,9 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true} >
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand><Brand /></Navbar.Brand>
+            <Navbar.Brand>
+              <Brand />
+            </Navbar.Brand>
               <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
                 <Navbar.Collapse id="navbar-toggle">
                   <Nav className="ml-auto">

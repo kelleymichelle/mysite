@@ -12,120 +12,112 @@ code {
     monospace;
 }
 
+/* card for displaying projects */
 .j-card {
   margin: 20px;
 }
-
+/* dimensions for images */
 .j-card-image {
   border-radius:5px;
   width: 240px;
-  height: 300px;
+  height: 360px;
   box-shadow: 0px 0px 4px 2px rgb(80, 78, 78);
 }
-
+/* hidden info for projects */
 .j-card-info {
   margin-top: 10px;
   min-height: 100px;
 }
-
+/* styling for project titles */
 .j-card-title {
   font-size: 22px;
   margin: 0px;
 }
-
+/* styling for project sub title */
 .j-card-sub-title {
   font-size: 14px;
   margin: 0px
 }
 
 .hero {
-  /* background-image: url('../src/assets/images/mysitebg2.png'); */
-  background-image: linear-gradient(#ffc600, white)
+  background-image: linear-gradient(#ffc600, white);
 }
 
+/* name(brand) in navbar animation */
 #logo {
-  animation: fill 0.8s ease forwards 6s;
+  animation: fill 0.8s ease forwards 5.0s;
 }
-
 #logo path:nth-child(1) {
   stroke-dasharray: 136px;
   stroke-dashoffset: 136px;
-  animation: line-anim 2s ease forwards 1.5s;
+  animation: line-anim 2s ease forwards 0.8s;
 }
-
 #logo path:nth-child(2) {
   stroke-dasharray: 201px;
   stroke-dashoffset: 201px;
-  animation: line-anim 2s ease forwards 1.8s;
+  animation: line-anim 2s ease forwards 1.1s;
 }
-
 #logo path:nth-child(3) {
   stroke-dasharray: 274px;
   stroke-dashoffset: 274px;
-  animation: line-anim 2s ease forwards 2.1s;
+  animation: line-anim 2s ease forwards 1.4s;
 }
-
 #logo path:nth-child(4) {
   stroke-dasharray: 101px;
   stroke-dashoffset: 101px;
-  animation: line-anim 2s ease forwards 2.6s;
+  animation: line-anim 2s ease forwards 1.9s;
 }
-
 #logo path:nth-child(5) {
   stroke-dasharray: 195px;
   stroke-dashoffset: 195px;
-  animation: line-anim 2s ease forwards 2.9s;
+  animation: line-anim 2s ease forwards 2.2s;
 }
-
 #logo path:nth-child(6) {
   stroke-dasharray: 143px;
   stroke-dashoffset: 143px;
-  animation: line-anim 2s ease forwards 3.2s;
+  animation: line-anim 2s ease forwards 2.5s;
 }
 #logo path:nth-child(7) {
   stroke-dasharray: 175px;
   stroke-dashoffset: 175px;
-  animation: line-anim 2s ease forwards 3.5s;
+  animation: line-anim 2s ease forwards 2.8s;
 }
-
 #logo path:nth-child(8) {
   stroke-dasharray: 108px;
   stroke-dashoffset: 108px;
-  animation: line-anim 2s ease forwards 3.9s;
+  animation: line-anim 2s ease forwards 3.2s;
 }
-
 #logo path:nth-child(9) {
   stroke-dasharray: 108px;
   stroke-dashoffset: 108px;
-  animation: line-anim 2s ease forwards 4.2s;
+  animation: line-anim 2s ease forwards 3.5s;
 }
-
 #logo path:nth-child(10) {
   stroke-dasharray: 177px;
   stroke-dashoffset: 177px;
-  animation: line-anim 2s ease forwards 4.5s;
+  animation: line-anim 2s ease forwards 3.8s;
 }
-
 @keyframes line-anim {
   to{
     stroke-dashoffset: 0;
   }
 }
-
 @keyframes fill {
   from {
     fill: transparent;
   }
   to {
-    fill: #463700;
+    fill: #5a5a5a;
   }
 }
 
+/* successmessage for email */
 .success-msg {
   color: rgb(45, 204, 101);
   padding: 10px 15px;
 }
 
+/* error message for email */
 .err-msg {
   color: rgb(235, 58, 35);
   padding: 10px 15px;

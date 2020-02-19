@@ -1,4 +1,4 @@
-05-13-19 PT Jamie Vullo Personal Portfolio Website
+Jamie Vullo Personal Portfolio Website
 
 # jamievullo.com
 A web application made using the React framework and JavaScript high-level programming language.
@@ -40,6 +40,7 @@ This application utilizes the React and JavaScript while using several dependenc
 * https://codesandbox.io
 * https://hackernoon.com/ setting-up-a-serverless-contact-form-in-react-using-nodemailer
 * https://uxplanet.org/best-practices-to-use-scrolling-effects-with-examples-a448ac761bb9
+* https://reacttraining.com/react-router/
 
 
 ### License

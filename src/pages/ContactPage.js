@@ -18,7 +18,6 @@ export default class ContactPage extends React.Component {
          emailSent: null,
       }
    
-
    handleChange = (event) => {
       const target = event.target;
       const value = target.type === 'checkbox' ? target.checked : target.value;
@@ -64,7 +63,7 @@ export default class ContactPage extends React.Component {
 
    render() {
       return (
-         <div>
+         <div className='hero-contact' >
             <Hero title={this.props.title} />
          <Content>
             <Form onSubmit={this.handleSubmit}>

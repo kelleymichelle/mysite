@@ -12,7 +12,7 @@ export default function Footer() {
                         Powered By Flatiron School
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                        Copyright © by Jamie Vullo 2020
+                        © 2020 Jamie Vullo. All rights reserved.
                     </Col>
                 </Row>
             </Container>           
