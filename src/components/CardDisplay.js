@@ -11,7 +11,7 @@ import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 
 
-export class CardDisplay extends Component {
+export default class CardDisplay extends Component {
     constructor(props) {
         super()
         this.state ={
@@ -36,6 +36,15 @@ export class CardDisplay extends Component {
                 },
                 {
                     id: 2,
+                    title: 'TravelSaver',
+                    subTitle: 'React, JavaScript, Rails API',
+                    imgSrc: weatherapp,
+                    link: 'https://github.com/jamievullo/TravelSaver',
+                    gitLink: 'https://github.com/jamievullo/TravelSaver',
+                    selected: false
+                },
+                {
+                    id: 3,
                     title: 'Rubiks Time Tracker',
                     subTitle: 'Sinatra, HTML, CSS, OOP, MVC',
                     imgSrc: rubikstimetracker,
@@ -44,7 +53,7 @@ export class CardDisplay extends Component {
                     selected: false
                 },
                 {
-                    id: 3,
+                    id: 4,
                     title: 'Weather Hack',
                     subTitle: 'JavaScript SPA, API Integration',
                     imgSrc: weatherapp,
@@ -90,5 +99,3 @@ export class CardDisplay extends Component {
         )
     }
 }
-
-export default CardDisplay

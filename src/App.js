@@ -23,8 +23,8 @@ class App extends React.Component {
       ],
       home: {
         title: "Stand Out",
-        subTitle: "",
-        text: "To checkout my work, click on an image below..."
+        subTitle: "Endlessly Building",
+        text: "To view my work, click on an image below......"
       },
       about: {
         title: "About Me"

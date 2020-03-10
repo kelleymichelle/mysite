@@ -11,7 +11,7 @@ A web application made using the React framework and JavaScript high-level progr
 * License
 
 ### Description
-
+This is my personal portfolio website.
 
 ### Technologies
 This application utilizes the React and JavaScript while using several dependencies

@@ -12,7 +12,7 @@ export default function AboutPage(props) {
             and ingenious interactive web applications from scratch.</p>
 
             <p>As a software engineer, I get to create almost anything I can dream up and 
-            I do so every day. I want to make things that make a difference....(?) </p>
+            I do so every day.......(?) </p>
 
             </Content>
         </div>
