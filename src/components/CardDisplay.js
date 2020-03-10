@@ -2,10 +2,15 @@ import React, { Component } from 'react'
 
 import Card from '../components/Card'
 
-import moonlight from '../assets/images/moonlight.png';
-import tagsale from '../assets/images/tagsale.png';
-import rubikstimetracker from '../assets/images/rubikstimetracker.png';
-import weatherapp from '../assets/images/weatherapp.png';
+// import moonlight from '../assets/images/moonlight.png';
+import moonlight from '../assets/images/moonlight2.png';
+// import tagsale from '../assets/images/tagsale.png';
+import tagsale from '../assets/images/tagsale2.png';
+// import rubikstimetracker from '../assets/images/rubikstimetracker.png';
+import rubikstimetracker from '../assets/images/rtt.png';
+// import weatherapp from '../assets/images/weatherapp.png';
+import weatherapp from '../assets/images/wh.png';
+import travelsaver from '../assets/images/travelsaver3.png'
 
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
@@ -38,7 +43,7 @@ export default class CardDisplay extends Component {
                     id: 2,
                     title: 'TravelSaver',
                     subTitle: 'React, JavaScript, Rails API',
-                    imgSrc: weatherapp,
+                    imgSrc: travelsaver,
                     link: 'https://github.com/jamievullo/TravelSaver',
                     gitLink: 'https://github.com/jamievullo/TravelSaver',
                     selected: false
