@@ -4,7 +4,7 @@ import Content from '../components/Content'
 
 export default function AboutPage(props) {
     return (
-        <div className='hero-about' >
+        <div className='hero-about' style={{color: '#212850'}}>
             <Hero title={props.title} />
                 <Content>
 

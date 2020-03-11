@@ -63,20 +63,20 @@ export default class ContactPage extends React.Component {
 
    render() {
       return (
-         <div className='hero-contact' >
+         <div className='hero-contact' style={{color: '#212850'}}>
             <Hero title={this.props.title} />
          <Content>
             <Form onSubmit={this.handleSubmit}>
                <Form.Group>
-                  <Form.Label htmlFor="full-name">Full Name</Form.Label>
+                  <Form.Label htmlFor="full-name" style={{color: '#212850'}}>Full Name</Form.Label>
                   <Form.Control id="full-name" name="name" type="text" value={this.state.name} onChange={this.handleChange} />
                </Form.Group>
                <Form.Group>
-                  <Form.Label htmlFor="email">Email Address</Form.Label>
+                  <Form.Label htmlFor="email" style={{color: '#212850'}}>Email Address</Form.Label>
                   <Form.Control id="email" name="email" type="email" value={this.state.email} onChange={this.handleChange} />
                </Form.Group>
                <Form.Group>
-                  <Form.Label htmlFor="message">Please Leave a Message</Form.Label>
+                  <Form.Label htmlFor="message" style={{color: '#212850'}}>Please Leave a Message</Form.Label>
                   <Form.Control id="message" name="message" as="textarea"rows="5" value={this.state.message} onChange={this.handleChange} />
                </Form.Group>
                <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
