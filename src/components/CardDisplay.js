@@ -32,7 +32,7 @@ export default class CardDisplay extends Component {
                 },
                 {
                     id: 1,
-                    title: 'Tag Sale',
+                    title: 'TagSale',
                     subTitle: 'Ruby on Rails, Active Record, SQL',
                     imgSrc: tagsale,
                     link: 'https://github.com/jamievullo/Tag-Sale',
