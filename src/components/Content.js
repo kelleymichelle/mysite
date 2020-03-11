@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col'
 
 export default function Content(props) {
     return (
-        <Container fluid={true}>
+        <Container fluid={true} style={{fontSize: "1.5em"}}>
             <Row className="justify-content-center">
                 <Col md={8}>
                     {props.children}
