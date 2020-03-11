@@ -10,7 +10,7 @@ import tagsale from '../assets/images/tagsale2.png';
 import rubikstimetracker from '../assets/images/rtt.png';
 // import weatherapp from '../assets/images/weatherapp.png';
 import weatherapp from '../assets/images/wh.png';
-import travelsaver from '../assets/images/travelsaver3.png'
+import travelsaver from '../assets/images/travelsaver2.png'
 
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
