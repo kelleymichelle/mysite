@@ -18,7 +18,7 @@ This application utilizes the React and JavaScript while using several dependenc
 
 
 ### Setup
-* To run this web application you must clone it from git@github.com:jamievullo/mysite.git goto https://github.com/jamievullo/mysite copy and clone into your terminal.
+* To run this web application you must clone it from git@github.com:jamievullo/mysite.git goto https://github.com/jamievullo/mysite copy and clone into your terminal. Run nodemon to start server on express.
 
 
 ### Sources and Resources Used
