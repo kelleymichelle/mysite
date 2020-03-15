@@ -1,20 +1,8 @@
 import React, { Component } from 'react'
 
 import Card from '../components/Card'
-
-// import moonlight from '../assets/images/moonlight.png';
-// import moonlight from 'https://res.cloudinary.com/brickcodebanger/image/upload/v1584293872/moonlight2_kxxnk5.png';
-// import tagsale from '../assets/images/tagsale.png';
-// import tagsale from 'https://res.cloudinary.com/brickcodebanger/image/upload/v1584293905/tagsale2_hluysp.png';
-// import rubikstimetracker from '../assets/images/rubikstimetracker.png';
-// import rubikstimetracker from 'https://res.cloudinary.com/brickcodebanger/image/upload/v1584293894/rtt_nwlfct.png';
-// import weatherapp from '../assets/images/weatherapp.png';
-// import weatherapp from 'https://res.cloudinary.com/brickcodebanger/image/upload/v1584293856/wh_kmlfvm.png';
-// import travelsaver from 'https://res.cloudinary.com/brickcodebanger/image/upload/v1584293861/travelsaver2_punwtc.png'
-
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
-
 
 export default class CardDisplay extends Component {
     constructor(props) {

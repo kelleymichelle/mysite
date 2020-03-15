@@ -37,7 +37,7 @@ export default class ContactPage extends React.Component {
          disabled: true
       });
 
-   Axios.post('https://jamievullo.herokuapp.com/api/email', this.state)
+   Axios.post('https://jamievullo-backend.herokuapp.com/api/email', this.state)
       .then(res => {
          if(res.data.success) {
             this.setState({
