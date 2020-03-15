@@ -3,14 +3,14 @@ import React, { Component } from 'react'
 import Card from '../components/Card'
 
 // import moonlight from '../assets/images/moonlight.png';
-import moonlight from '../assets/images/moonlight2.png';
+import moonlight from '..src/assets/images/moonlight2.png';
 // import tagsale from '../assets/images/tagsale.png';
-import tagsale from '../assets/images/tagsale2.png';
+import tagsale from '..src/assets/images/tagsale2.png';
 // import rubikstimetracker from '../assets/images/rubikstimetracker.png';
-import rubikstimetracker from '../assets/images/rtt.png';
+import rubikstimetracker from '..src/assets/images/rtt.png';
 // import weatherapp from '../assets/images/weatherapp.png';
-import weatherapp from '../assets/images/wh.png';
-import travelsaver from '../assets/images/travelsaver2.png'
+import weatherapp from '..src/assets/images/wh.png';
+import travelsaver from '..src/assets/images/travelsaver2.png'
 
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
