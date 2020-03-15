@@ -3,14 +3,14 @@ import React, { Component } from 'react'
 import Card from '../components/Card'
 
 // import moonlight from '../assets/images/moonlight.png';
-import moonlight from 'https://res.cloudinary.com/brickcodebanger/image/upload/v1584293872/moonlight2_kxxnk5.png';
+// import moonlight from 'https://res.cloudinary.com/brickcodebanger/image/upload/v1584293872/moonlight2_kxxnk5.png';
 // import tagsale from '../assets/images/tagsale.png';
-import tagsale from 'https://res.cloudinary.com/brickcodebanger/image/upload/v1584293905/tagsale2_hluysp.png';
+// import tagsale from 'https://res.cloudinary.com/brickcodebanger/image/upload/v1584293905/tagsale2_hluysp.png';
 // import rubikstimetracker from '../assets/images/rubikstimetracker.png';
-import rubikstimetracker from 'https://res.cloudinary.com/brickcodebanger/image/upload/v1584293894/rtt_nwlfct.png';
+// import rubikstimetracker from 'https://res.cloudinary.com/brickcodebanger/image/upload/v1584293894/rtt_nwlfct.png';
 // import weatherapp from '../assets/images/weatherapp.png';
-import weatherapp from 'https://res.cloudinary.com/brickcodebanger/image/upload/v1584293856/wh_kmlfvm.png';
-import travelsaver from 'https://res.cloudinary.com/brickcodebanger/image/upload/v1584293861/travelsaver2_punwtc.png'
+// import weatherapp from 'https://res.cloudinary.com/brickcodebanger/image/upload/v1584293856/wh_kmlfvm.png';
+// import travelsaver from 'https://res.cloudinary.com/brickcodebanger/image/upload/v1584293861/travelsaver2_punwtc.png'
 
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
@@ -25,7 +25,7 @@ export default class CardDisplay extends Component {
                     id: 0,
                     title: 'Moonlight',
                     subTitle: 'JavaScript SPA/Rails API',
-                    imgSrc: moonlight,
+                    imgSrc: 'https://res.cloudinary.com/brickcodebanger/image/upload/v1584293872/moonlight2_kxxnk5.png',
                     link: 'https://projectmoonlight.herokuapp.com/',
                     gitLink: 'https://github.com/jamievullo/Moonlight',
                     selected: false
@@ -34,7 +34,7 @@ export default class CardDisplay extends Component {
                     id: 1,
                     title: 'TagSale',
                     subTitle: 'Ruby on Rails, Active Record, SQL',
-                    imgSrc: tagsale,
+                    imgSrc: 'https://res.cloudinary.com/brickcodebanger/image/upload/v1584293905/tagsale2_hluysp.png',
                     link: 'https://github.com/jamievullo/Tag-Sale',
                     gitLink: 'https://github.com/jamievullo/Tag-Sale',
                     selected: false
@@ -43,7 +43,7 @@ export default class CardDisplay extends Component {
                     id: 2,
                     title: 'TravelSaver',
                     subTitle: 'React, JavaScript, Rails API',
-                    imgSrc: travelsaver,
+                    imgSrc: 'https://res.cloudinary.com/brickcodebanger/image/upload/v1584293861/travelsaver2_punwtc.png',
                     link: 'https://github.com/jamievullo/TravelSaver',
                     gitLink: 'https://github.com/jamievullo/TravelSaver',
                     selected: false
@@ -52,7 +52,7 @@ export default class CardDisplay extends Component {
                     id: 3,
                     title: 'Rubiks Time Tracker',
                     subTitle: 'Sinatra, HTML, CSS, OOP, MVC',
-                    imgSrc: rubikstimetracker,
+                    imgSrc: 'https://res.cloudinary.com/brickcodebanger/image/upload/v1584293894/rtt_nwlfct.png',
                     link: 'https://github.com/jamievullo/Rubiks_Time_Tracker',
                     gitLink: 'https://github.com/jamievullo/Rubiks_Time_Tracker',
                     selected: false
@@ -61,7 +61,7 @@ export default class CardDisplay extends Component {
                     id: 4,
                     title: 'Weather Hack',
                     subTitle: 'JavaScript SPA, API Integration',
-                    imgSrc: weatherapp,
+                    imgSrc: 'https://res.cloudinary.com/brickcodebanger/image/upload/v1584293856/wh_kmlfvm.png',
                     link: 'https://github.com/jamievullo/WeatherApp',
                     gitLink: 'https://github.com/jamievullo/WeatherApp',
                     selected: false
