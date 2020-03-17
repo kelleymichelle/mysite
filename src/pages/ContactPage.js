@@ -1,11 +1,13 @@
 import React from 'react'
-
+import emailjs from 'emailjs-com';
 import Hero from '../components/Hero'
 import Content from '../components/Content';
-import Axios from 'axios';
-
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+// require('dotenv').config();
+// const template = process.env.REACT_APP_TEMPLATE
+// const userId = process.env.REACT_APP_USER_ID
+// const email2 = process.env.REACT_APP_EMAIL
 
 
 export default class ContactPage extends React.Component {
@@ -30,38 +32,28 @@ export default class ContactPage extends React.Component {
 
    handleSubmit = (event) => {
       event.preventDefault();
+      console.log(this.state);
 
-      console.log(event.target);
+      // this.setState({
+      //    disabled: true
+      // });
 
-      this.setState({
-         disabled: true
-      });
-
-   Axios.post('https://jamievullo-backend.herokuapp.com/api/email', this.state)
-      .then(res => {
-         if(res.data.success) {
+      emailjs.sendForm('gmailjvullo01_gmail_com', 'template_UF9U4qGL', event.target, 'user_AsE6AZwm292eK5AlSgzrH')
+         .then((result) => {
+            console.log(result.text);
             this.setState({
-               disabled: false,
                emailSent: true,
+               disabled: true,
                name: '',
                email: '',
                message: ''
-               });
-            } else {
+            })
+         }, (error) => {
+            console.log(error.text);
             this.setState({
-               disabled: false,
                emailSent: false
-               });
-            }
-         })
-         .catch(err => {
-            console.log(err);
-
-            this.setState({
-               disabled: false,
-               emailSent: false
-            });
-         })
+            })
+         });
    }
 
    render() {
