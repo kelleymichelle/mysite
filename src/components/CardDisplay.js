@@ -54,6 +54,15 @@ export default class CardDisplay extends Component {
                     gitLink: 'https://github.com/jamievullo/WeatherApp',
                     selected: false
                 },
+                {
+                    id: 5,
+                    title: 'Screen Kingdom',
+                    subTitle: 'React SPA, YouTube API Integration',
+                    imgSrc: 'https://res.cloudinary.com/brickcodebanger/image/upload/v1584659440/ScreenKingdom_blojbb.png',
+                    link: 'https://github.com/jamievullo/screenkingdom',
+                    gitLink: 'https://github.com/jamievullo/screenkingdom',
+                    selected: false
+                },
             ]
         }
     }
